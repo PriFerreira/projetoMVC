@@ -44,5 +44,18 @@ namespace ProjetoMVC.Controllers
             return View(categorias);//poderia ser uma ViewResult ao inves de ActionResult devido o retorno ser de uma View
         }
 
+        //	GET:	Create
+        public ActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Categoria categoria)
+        {
+            categorias.Add(categoria);
+            categoria.CategoriaID = categorias.Select(m => m.CategoriaID).Max() + 1;
+            return RedirectToAction("Index");
+        }
     }
 }
