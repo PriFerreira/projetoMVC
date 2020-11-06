@@ -88,6 +88,7 @@ namespace ProjetoMVC.Controllers
             categorias.Add(categoria);            
 
             return RedirectToAction("Index");
+            //posso passar um caminho mais específico return RedirectToAction("views/blabla/parangole/Index");
         }
 
         public ActionResult Details(long id)
