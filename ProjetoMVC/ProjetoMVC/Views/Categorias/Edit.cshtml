@@ -24,6 +24,7 @@
           * Para evitar este problema (problema de segurança conhecido como Cross Site Request Forgery),
           * fazemos uso do Html.AntiForgeryToken(), pois ele cria	um cookie com os códigos de
           * AntiForgery	e insere o código mais recente como campo oculto na visão.
+            Resumindo: Para que invasores não acessem nossas rotas internas.
         *@
 
         <div class="form-horizontal">
