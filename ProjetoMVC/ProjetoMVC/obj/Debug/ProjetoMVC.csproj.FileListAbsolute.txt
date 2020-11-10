@@ -62,8 +62,12 @@ C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\bin
 C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\bin\System.Web.Helpers.xml
 C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\bin\System.Web.Mvc.xml
 C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\obj\Debug\ProjetoMVC.csprojAssemblyReference.cache
 C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\obj\Debug\ProjetoMVC.csproj.CoreCompileInputs.cache
 C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\obj\Debug\ProjetoMVC.csproj.CopyComplete
 C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\obj\Debug\ProjetoMVC.dll
 C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\obj\Debug\ProjetoMVC.pdb
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\bin\EntityFramework.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\bin\EntityFramework.xml
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\ProjetoMVC\obj\Debug\ProjetoMVC.csprojAssemblyReference.cache

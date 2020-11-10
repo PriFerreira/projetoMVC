@@ -111,6 +111,7 @@ namespace ProjetoMVC.Controllers
                 c => c.CategoriaID== categoria.CategoriaID).First());
 
             return RedirectToAction("Index");
-        }
+        }
+
     }
 }
