@@ -64,6 +64,13 @@ namespace ProjetoMVC.Controllers
             return View(fabricante);
         }
 
+
+        public ActionResult Details(long id)
+        {
+            return View(context.Fabricantes.Where(
+                m => m.FabricanteID == id).First());
+        }
+
         public ActionResult Delete(long? id)
         {
             if(id == null)
