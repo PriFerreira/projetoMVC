@@ -5,105 +5,139 @@
     ViewBag.Title = "Listagem de FABRICANTES";
 }
 
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            Relação	de	FABRICANTES	registrados
-        </div>
-        <div class="panel-body">
-            <table class="table	table-striped table-hover">
-                <thead>
+@if (@TempData["Message"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Message"]
+    </div>
+}
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        Relação	de	FABRICANTES	registrados
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FabricanteID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
                     <tr>
-                        <th>
-                            @Html.DisplayNameFor(model => model.FabricanteID)
-                        </th>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FabricanteID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Alterar", "Edit", new { id = item.FabricanteID })	|
+                            @Html.ActionLink("Detalhes", "Details", new { id = item.FabricanteID })	|
+                            @Html.ActionLink("Eliminar", "Delete", new { id = item.FabricanteID })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="panel-footer panel-info">
+        @Html.ActionLink("Registrar	um	novo FABRICANTE", "Create", null, new { @class = "btn btn-success" })
+    </div>
+</div>
+
+@section styles{
+    <link href="@Url.Content("~/content/DataTables/css/dataTables.bootstrap.css")" rel="stylesheet" />
+}
+@section	ScriptPage	{    
+    <script src=" @Url.Content("~/scripts/DataTables/jquery.dataTables.min.js")"></script>
+    <script src="@Url.Content("~/scripts/DataTables/dataTables.bootstrap4.min.js")"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.table').dataTable({
+                "order": [[1, "asc"]],
+                "language": {
+                    "sEmptyTable": "Não foi encontrado nenhum registo",
+                    "sLoadingRecords": "A carregar...",
+                    "sProcessing": "A processar...",
+                    "sLengthMenu": "Mostrar _MENU_ registos",
+                    "sZeroRecords": "Não foram encontrados resultados",
+                    "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registos",
+                    "sInfoEmpty": "Mostrando de 0 até 0 de 0 registos",
+                    "sInfoFiltered": "(filtrado de _MAX_ registos no total)",
+                    "sInfoPostFix": "",
+                    "sSearch": "Procurar:",
+                    "sUrl": "",
+                    "oPaginate": {
+                        "sFirst": "Primeiro",
+                        "sPrevious": "Anterior",
+                        "sNext": "Seguinte",
+                        "sLast": "Último"
+                    },
+                    "oAria": {
+                        "sSortAscending": ": Ordenar colunas de forma ascendente",
+                        "sSortDescending": ": Ordenar colunas de forma descendente"
+                    }
+                }
+            });
+
+            $('li a.nav-link').removeClass("active");
+            $('#liFabricantes a.nav-link').addClass("active");
+
+        });
+
+    </script>
+}
+
+
+
+
+
+
+@*
+        <!DOCTYPE html>
+
+        <html>
+        <head>
+            <meta name="viewport" content="width=device-width" />
+            <title>Index</title>
+        </head>
+        <body>
+             <p>
+                    @Html.ActionLink("Cadastrar Fabricante", "Create")
+                </p>
+                <table class="table">
+                    <tr>
                         <th>
                             @Html.DisplayNameFor(model => model.Nome)
                         </th>
                         <th></th>
                     </tr>
-                </thead>
-                <tbody>
+
                     @foreach (var item in Model)
                     {
                         <tr>
                             <td>
-                                @Html.DisplayFor(modelItem => item.FabricanteID)
-                            </td>
-                            <td>
                                 @Html.DisplayFor(modelItem => item.Nome)
                             </td>
                             <td>
-                                @Html.ActionLink("Alterar", "Edit", new { id = item.FabricanteID })	|
-                                @Html.ActionLink("Detalhes", "Details", new { id = item.FabricanteID })	|
-                                @Html.ActionLink("Eliminar", "Delete", new { id = item.FabricanteID })
+                                @Html.ActionLink("Editar", "Edit", new { id = item.FabricanteID }) |
+                                @Html.ActionLink("Detalhes", "Details", new { id = item.FabricanteID }) |
+                                @Html.ActionLink("Excluir", "Delete", new { id = item.FabricanteID })
                             </td>
                         </tr>
                     }
-                </tbody>
-            </table>
-        </div>
-        <div class="panel-footer panel-info">
-            @Html.ActionLink("Registrar	um	novo FABRICANTE", "Create", null, new { @class = "btn btn-success" })
-        </div>
-    </div>
-
-    @section styles{
-        <link href="@Url.Content("~/content/DataTables/css/dataTables.bootstrap.css")" rel="stylesheet" />
-    }
-    @section	ScriptPage	{
-        <script src=" @Url.Content("~/scripts/DataTables/jquery.dataTables.js")"></script>
-        <script src="@Url.Content("~/scripts/DataTables/dataTables.bootstrap.js")"></script>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $('.table').dataTable({
-                    "order": [[1, "asc"]]
-                });
-            });
-        </script>
-    }
+                </table>
 
 
 
-
-
-
-            @*
-            <!DOCTYPE html>
-
-            <html>
-            <head>
-                <meta name="viewport" content="width=device-width" />
-                <title>Index</title>
-            </head>
-            <body>
-                 <p>
-                        @Html.ActionLink("Cadastrar Fabricante", "Create")
-                    </p>
-                    <table class="table">
-                        <tr>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Nome)
-                            </th>
-                            <th></th>
-                        </tr>
-
-                        @foreach (var item in Model)
-                        {
-                            <tr>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.Nome)
-                                </td>
-                                <td>
-                                    @Html.ActionLink("Editar", "Edit", new { id = item.FabricanteID }) |
-                                    @Html.ActionLink("Detalhes", "Details", new { id = item.FabricanteID }) |
-                                    @Html.ActionLink("Excluir", "Delete", new { id = item.FabricanteID })
-                                </td>
-                            </tr>
-                        }
-                    </table>
-
-
-
-        </body>
-        </html>
-            *@
+    </body>
+    </html>
+*@

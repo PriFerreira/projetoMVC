@@ -10,5 +10,7 @@ namespace ProjetoMVC.Models
         public long CategoriaID { get; set; }
         /*Posso colocar esse campo como required [Required] e validar no controller*/
         public string Nome { get; set; }
+
+        public virtual ICollection<Produto> Produtos { get; set; }
     }
 }

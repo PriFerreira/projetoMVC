@@ -38,6 +38,13 @@
 @section ScriptPage {
     <script src="~/Scripts/jquery.validate.min.js"></script>
     <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('li a.nav-link').removeClass("active");
+            $('#liFabricantes a.nav-link').addClass("active");
+        });
+    </script>
+
 }
 
 
