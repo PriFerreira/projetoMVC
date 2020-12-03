@@ -5,8 +5,8 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using ProjetoMVC.Contexts;
-using ProjetoMVC.Models;
+using Modelo.Cadastros;
+using Modelo.Contexts;
 
 namespace ProjetoMVC.Controllers
 {
@@ -67,8 +67,14 @@ namespace ProjetoMVC.Controllers
 
         public ActionResult Details(long id)
         {
-            return View(context.Fabricantes.Where(
-                m => m.FabricanteID == id).First());
+            /* return View(context.Fabricantes.Where(
+                 m => m.FabricanteID == id).First());*/
+
+            Fabricante fabricante = context.Fabricantes.
+                Where(f => f.FabricanteID == id).
+                Include("Produtos.Categoria").First();
+
+            return View(fabricante);
         }
 
         public ActionResult Delete(long? id)

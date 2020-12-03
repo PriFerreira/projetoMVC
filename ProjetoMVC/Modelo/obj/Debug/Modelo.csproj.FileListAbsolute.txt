@@ -1,0 +1,6 @@
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Modelo\bin\Debug\Modelo.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Modelo\bin\Debug\Modelo.pdb
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Modelo\obj\Debug\Modelo.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Modelo\obj\Debug\Modelo.pdb
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache

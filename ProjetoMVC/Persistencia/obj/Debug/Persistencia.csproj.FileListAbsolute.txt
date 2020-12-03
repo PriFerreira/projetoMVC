@@ -1,0 +1,14 @@
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\bin\Debug\Persistencia.dll.config
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\bin\Debug\EntityFramework.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\bin\Debug\Modelo.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\bin\Debug\Modelo.pdb
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\obj\Debug\Persistencia.csprojAssemblyReference.cache
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Persistencia\obj\Debug\Persistencia.pdb

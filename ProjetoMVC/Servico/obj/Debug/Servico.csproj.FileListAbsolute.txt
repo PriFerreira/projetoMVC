@@ -1,0 +1,14 @@
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\bin\Debug\Servico.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\bin\Debug\Servico.pdb
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\bin\Debug\Modelo.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\bin\Debug\Persistencia.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\bin\Debug\EntityFramework.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\bin\Debug\Modelo.pdb
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\bin\Debug\Persistencia.pdb
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\bin\Debug\Persistencia.dll.config
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\bin\Debug\EntityFramework.xml
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\obj\Debug\Servico.csprojAssemblyReference.cache
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\obj\Debug\Servico.csproj.CoreCompileInputs.cache
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\obj\Debug\Servico.csproj.CopyComplete
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\obj\Debug\Servico.dll
+C:\Users\priscilaf\Desktop\Priscila\Estudos\projetoMVC\ProjetoMVC\Servico\obj\Debug\Servico.pdb
