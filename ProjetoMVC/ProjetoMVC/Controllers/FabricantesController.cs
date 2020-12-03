@@ -67,9 +67,6 @@ namespace ProjetoMVC.Controllers
 
         public ActionResult Details(long id)
         {
-            /* return View(context.Fabricantes.Where(
-                 m => m.FabricanteID == id).First());*/
-
             Fabricante fabricante = context.Fabricantes.
                 Where(f => f.FabricanteID == id).
                 Include("Produtos.Categoria").First();

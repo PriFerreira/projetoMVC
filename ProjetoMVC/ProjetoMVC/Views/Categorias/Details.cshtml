@@ -1,4 +1,4 @@
-﻿@model ProjetoMVC.Models.Categoria
+﻿@model Modelo.Tabelas.Categoria
 
 @{
     Layout = null;
@@ -15,20 +15,11 @@
     <div>
         <h4>Categoria</h4>
         <hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Nome)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Nome)
-            </dd>
-    
-        </dl>
+        @Html.Partial("~/Views/Categorias/_PartialDetailsContentPanel.cshtml", Model)
+        <p>
+            @Html.ActionLink("Alterar", "Edit", new { id = Model.CategoriaID }) |
+            @Html.ActionLink("Retornar para a listagem", "Index")
+        </p>
     </div>
-    <p>
-        @Html.ActionLink("Alterar", "Edit", new { id = Model.CategoriaID }) |
-        @Html.ActionLink("Retornar para a listagem", "Index")
-    </p>
 </body>
 </html>
